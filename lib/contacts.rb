@@ -25,6 +25,7 @@ def remove_strawberry(contacts)
           else
             i += 1
           end
+        end
       end
     end
   end
