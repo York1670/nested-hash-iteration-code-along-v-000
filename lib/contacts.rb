@@ -22,7 +22,7 @@ def remove_strawberry(contacts)
           value.each do |flavor|
             i = 0
             if flavor == "strawberry"
-              flavor.delete_at(i)
+              flavor.slice(i)
             else
               i += 1
             end
